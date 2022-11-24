@@ -10,7 +10,7 @@ const CompanyName = styled.div`
 
 const CompanyRole = styled.div`
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: inherit;
 `;
 

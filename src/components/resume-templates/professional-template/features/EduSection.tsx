@@ -26,11 +26,11 @@ export function EduSection({ items }: any) {
         <em>{data.years}</em>
       </Flex>
 
-      <Specialization>{data.specialization}</Specialization>
-      <Flex jc="space-between">
+      {/* <Specialization>{data.specialization}</Specialization> */}
+      {/* <Flex jc="space-between"> */}
         <div>{data.institution}</div>
         <em>{data.grade}</em>
-      </Flex>
+      {/* </Flex> */}
     </div>
   ));
 }

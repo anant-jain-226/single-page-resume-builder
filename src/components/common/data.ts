@@ -1,27 +1,27 @@
 export const intro = {
-  name: "Jane Doe",
-  role: "Frontend Developer",
-  mobile: "+91 9876543210",
-  email: "johndoe@email.com",
-  location: "Bengaluru",
+  name: "Anant Jain",
+  role: "Software Development Engineer",
+  mobile: "+91 8920885384",
+  email: "anantjain226@gmail.com",
+  location: "Bangalore, India",
   experience: [
-    { type: "Frontend experience", years: "4 years" },
-    { type: "Total Experience", years: "6 years" },
+    { type: "Frontend experience", years: "1.8 years" },
+    { type: "Total Experience", years: "2.2 years" },
   ],
   social: [
-    ["linkedin", "https://www.linkedin.com/in/sadanandpai/"],
-    ["github", "https://github.com/sadanandpai/"],
+    ["linkedin", "https://www.linkedin.com/in/anant-jain-948349132/"],
+    ["github", "https://github.com/Anantjain226"],
   ],
   photo:
-    "https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg",
+    "https://media-exp1.licdn.com/dms/image/C5103AQEb4O6UpDg7cQ/profile-displayphoto-shrink_400_400/0/1559458575480?e=1671667200&v=beta&t=XntniM91UfH9EiZ70RoW4tuTXo2Et89MuOsOSH4NRnA",
   about: {
     title: "About me",
-    description: `I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.\nI am very good at UI fundamentals & Technologies and can adapt to most of the front-end frameworks quickly.`,
+    description: `I am a self-taught Frontend Developer who changed his field of work radically from business to tech because of his deep-interest in learning different technologies and leverage them to solve as much problems as possible. I am well-versed with UI fundamentals and can adapt to most of the front-end frameworks quickly.`,
   },
   objective: {
     title: "Career Objective",
     description:
-      "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
+      "Eager to build a great level of expertise in frontend technologies preferably in React, Typescript and GraphQL and many other frontend technologies and also be well-versed with decent understanding of backend databases",
   },
 };
 
@@ -31,37 +31,37 @@ export const skills = {
     items: [
       { name: "JavaScript", rating: 5 },
       { name: "HTML5", rating: 5 },
-      { name: "CSS", rating: 5 },
+      { name: "CSS", rating: 4 },
       { name: "React", rating: 4 },
-      { name: "Angular", rating: 4 },
+      { name: "Graphql", rating: 3 },
+      { name: "Redux", rating: 4 },
     ],
   },
   exposure: {
     title: "Skills / Expsoure",
     items: [
-      "Algorithms",
-      "Data Structures",
-      "SQL",
-      "Progressive Web Apps",
-      "jQuery",
+      "React",
       "Redux",
-      "Firebase",
+      "Apollo GraphQL",
+      "Typescript",
+      "Vue",
+      "Svelte",
     ],
   },
   methodology: {
-    title: "Methodology / Approach",
-    items: [
-      "Component based architecture",
-      "Agile methodology",
-      "Design Patterns",
-      "Test Driven Development",
-      "MVC",
-      "RESTful architecture",
-    ],
+    // title: "Methodology / Approach",
+    // items: [
+    //   "Component based architecture",
+    //   "Agile methodology",
+    //   "Design Patterns",
+    //   "Test Driven Development",
+    //   "MVC",
+    //   "RESTful architecture",
+    // ],
   },
   tools: {
     title: "Tools",
-    items: ["Git", "VS Code", "Jira", "Webpack", "Eclipse", "Bitbucket"],
+    items: ["Git", "Postman", "Altair", "Figma", "Jira", "Basecamp"],
   },
 };
 
@@ -69,65 +69,66 @@ export const experience = {
   title: "Experience",
   companies: [
     {
-      name: "Company 1",
-      role: "Senior Software Developer",
-      years: "Apr 2021 - present",
-      expYears: "2.5 years",
+      name: "Masai School",
+      role: "Software Development Engineer",
+      years: "January 2021 - present",
+      expYears: "1.8 years",
       description: [
-        "Use my extensive experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
-        "Keep the code quality high reviewing code from other developers and suggesting improvements",
-        "Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality",
-        "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
+        "Created an internal placements dashboard from scratch, which disabled the dependency on google sheets for tracking processes",
+        "Worked on a in-house contest platform where students and come and solve various DSA problems",
+        "Created highly optimised landing pages for many products and achieved pixel perfect designs and eye catching UI",
+        "Used my experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
+        "Interact with designers to suggest changes and to make sure the view he has about the design is translated into actual functionality",
       ],
     },
     {
-      name: "Company 2",
-      role: "Software Developer",
-      years: "Jun 2015 - Dec 2017",
-      expYears: "2.5 years",
+      name: "The Economist",
+      role: "Programme Assistant",
+      years: "November 2019 - February 2020",
+      expYears: "4 Months",
       description: [
-        "Develop web applications based on Sharepoint, Drupal 8 and Episerver",
-        "Lead a team of <strong>10 front end developers</strong>, giving support to the client's multi-cultural team, providing feedback, clarifying requirements and helping with technical questions",
-        "Keep the Project Manager and the IT Leads updated on the overall progress of the projects and manage the tasks distributed to the team",
-        "Keep the code and the features implemented by the other developers in accordance to the requirements",
+        "Assist editors in programme development of the Global conferences for The Economist through secondary research", 
+        "Handle end to end speaker (industry veterans) acquisition for the ongoing events and set up discussion panels for the same"
       ],
     },
     {
-      name: "Company 3",
-      role: "Trainee Developer",
-      years: "Aug 2011 - May 2015",
-      expYears: "1 year",
+      name: "Zomato",
+      role: "Growth Intern",
+      years: "June 2019 - October 2020",
+      expYears: "5 Months",
       description: [
-        "Design easy user interfaces and great user experiences for the digital platforms of small companies",
-        "Wordpress development, including themes creation or customization, custom plugins development and training",
-        "E-commerce maintenance <i>with Fastcommerce</i>, a Brazilian e-commerce platform",
-        "E-commerce development with Magento, customizing preexisting themes ",
-        "Integrate external services such as payment services, delivery, etc into Magento solutions",
-        "VPS configuration and optimization (Apache & Nginx)",
+        "Drove end to end secondary campaigns at a PAN India level. Fetched approx. 20% user traction and generated a revenue of approx. INR 50 Lakh+",
+        "Worked with the revenue team, and found default merchant cases across 6 regions of North India, and thus brought 700+ merchants to new commission rates, leading to incremental monthly revenue of INR 1.7 Lakh+ September onwards for the company"
       ],
     },
+    {
+      name: "Urbanclap",
+      role: "Business Development Intern",
+      years: "Sept 2017 - October 2017",
+      expYears: "1 Month",
+      description: [
+       "Undertook a research project to understand the user’s rationale, which led to better understanding of the ‘home-tutors’ market and thus solved the problem of a demand-supply disproportion in a dynamic by implementing some product changes on the platform"
+      ],
+    }
+
   ],
 };
 
 export const achievements = {
   keyProjects: {
-    title: "Key Projects / Involvements",
-    items: [
-      "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
-      "Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.",
-      "Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.",
-      "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
-    ],
+    // title: "Education",
+    // items: [
+    //   "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
+    //   "Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.",
+    //   "Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.",
+    //   "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
+    // ],
   },
   certificates: {
-    title: "Certificates and Awards",
+    title: "Certifications and Other Interests",
     items: [
-      "<strong>React</strong> and redux - A complete guide 2020 from Udemy",
-      "Agile and Scrum Master Certificate from Udacity",
-      "Best performer award for consistently exceeding the performance",
-      "Certificate of exceptional bug finder by XYZ client",
-      "Recorgnition zero defect delivery",
-      "Best performer award for consistently exceeding the performance",
+      "<strong>Full Stack Web Development</strong> course from Masai School ",
+      "Trainer with Teach India- English for Employability (a CSR initiative by Times of India)",
     ],
   },
 };
@@ -135,12 +136,12 @@ export const achievements = {
 export const education = {
   title: "Education",
   items: [
+
     {
-      institution: "XIV, University",
-      years: "2010 - 2014",
-      grade: "8.3 CGPA",
-      degree: "B.Tech",
-      specialization: "Masters in Cloud Technology",
+      institution: "Guru Gobind Singh Indraprastha University",
+      years: "2016 - 2019",
+      grade: "7.98 CGPA",
+      degree: "BBA"
     },
   ],
 };
