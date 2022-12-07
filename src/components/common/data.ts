@@ -1,27 +1,26 @@
 export const intro = {
-  name: "Anant Jain",
-  role: "Software Development Engineer",
-  mobile: "+91 8920885384",
-  email: "anantjain226@gmail.com",
-  location: "Bangalore, India",
+  name: "Ekjot Kaur",
+  role: "Senior Content Writer",
+  mobile: "+91 8010675062 ",
+  email: "ekjot.ask@gmail.com",
+  location: "New Delhi, India",
   experience: [
-    { type: "Frontend experience", years: "1.8 years" },
-    { type: "Total Experience", years: "2.2 years" },
+    { type: "Content Writing Experience", years: "1 year" },
+    { type: "Total Experience", years: "2.5 years" },
   ],
   social: [
-    ["linkedin", "https://www.linkedin.com/in/anant-jain-948349132/"],
-    ["github", "https://github.com/Anantjain226"],
+    ["linkedin", "https://www.linkedin.com/in/ekjot-kaur-905826163/"]
   ],
   photo:
-    "https://media-exp1.licdn.com/dms/image/C5103AQEb4O6UpDg7cQ/profile-displayphoto-shrink_400_400/0/1559458575480?e=1671667200&v=beta&t=XntniM91UfH9EiZ70RoW4tuTXo2Et89MuOsOSH4NRnA",
+    "https://media-exp1.licdn.com/dms/image/D4D03AQHgMA37FRkxuw/profile-displayphoto-shrink_400_400/0/1669272173755?e=1674691200&v=beta&t=ZtRJtwpjLpnOjtsPX2uVgay2s55WBJtLU_TexgKo8Ow",
   about: {
     title: "About me",
-    description: `I am a self-taught Frontend Developer who changed his field of work radically from business to tech because of his deep-interest in learning different technologies and leverage them to solve as much problems as possible. I am well-versed with UI fundamentals and can adapt to most of the front-end frameworks quickly.`,
+    description: `I am a content writer with exposure in both creative and technical areas who wants to leverage her skills towards more business centric roles which can help me better understand customer personas and client requirements and thus build proccess to streamline deliveries for the same`,
   },
   objective: {
     title: "Career Objective",
     description:
-      "Eager to build a great level of expertise in frontend technologies preferably in React, Typescript and GraphQL and many other frontend technologies and also be well-versed with decent understanding of backend databases",
+      "Intrigued to solve challenges and radically enhance experience of consumers . I want to focus towards enhancing brevity and thus deliver quality content which also defines clear call to action (CTA) for the clients/consumers.",
   },
 };
 
@@ -29,23 +28,19 @@ export const skills = {
   technical: {
     title: "Technical Expertise",
     items: [
-      { name: "JavaScript", rating: 5 },
-      { name: "HTML5", rating: 5 },
-      { name: "CSS", rating: 4 },
-      { name: "React", rating: 4 },
-      { name: "Graphql", rating: 3 },
-      { name: "Redux", rating: 4 },
+      { name: "Agile Projects", rating: 5},
+      { name: "Proofreading ", rating: 4 },
+      { name: "Project-Mgmt", rating: 4 },
+      { name: "Brainstorming", rating: 5 },
     ],
   },
   exposure: {
     title: "Skills / Expsoure",
     items: [
-      "React",
-      "Redux",
-      "Apollo GraphQL",
-      "Typescript",
-      "Vue",
-      "Svelte",
+      "Content Marketing",
+      "Logistics-Management",
+      "Blog and Magazine Writing",
+      "Creative Thinking",
     ],
   },
   methodology: {
@@ -61,7 +56,7 @@ export const skills = {
   },
   tools: {
     title: "Tools",
-    items: ["Git", "Postman", "Altair", "Figma", "Jira", "Basecamp"],
+    items: ["Wordpress", "Excel", "Power Point", ],
   },
 };
 
@@ -69,45 +64,48 @@ export const experience = {
   title: "Experience",
   companies: [
     {
-      name: "Masai School",
-      role: "Software Development Engineer",
-      years: "January 2021 - present",
-      expYears: "1.8 years",
+      name: "Doozy Media",
+      role: "Senior Content Writer",
+      years: "Nov 2022 - present",
+      expYears: "1 month",
       description: [
-        "Created an internal placements dashboard from scratch, which disabled the dependency on google sheets for tracking processes",
-        "Worked on a in-house contest platform where students and come and solve various DSA problems",
-        "Created highly optimised landing pages for many products and achieved pixel perfect designs and eye catching UI",
-        "Used my experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
-        "Interact with designers to suggest changes and to make sure the view he has about the design is translated into actual functionality",
+        "Single handedly managed and provided writing support (scripts/captions) in influencer campaign for <strong> Pears </strong>", 
+        "Brainstormed with the social media department to determine new ideas and create stories.",
+        "Engaged with relevant influencers to build brand awareness.",
+        "Drafted advertising content for online promotion of our brands and thus boost sales."
       ],
     },
     {
-      name: "The Economist",
-      role: "Programme Assistant",
-      years: "November 2019 - February 2020",
+      name: "Wedding Affair",
+      role: "Content Writing Intern ",
+      years: "Arp 2022 - July 2022",
       expYears: "4 Months",
       description: [
-        "Assist editors in programme development of the Global conferences for The Economist through secondary research", 
-        "Handle end to end speaker (industry veterans) acquisition for the ongoing events and set up discussion panels for the same"
+        "Researched and curated captivating content for readers of the brand website, and original featurearticles for magazine publish media.", 
+        "Played an instrumental role in creative planning and review sessions, working with resourceful team toelevate quality of content and designs." ,
+        "Actively created appealing social media posts and captions for the brand's Instagram handle."
       ],
     },
     {
-      name: "Zomato",
-      role: "Growth Intern",
-      years: "June 2019 - October 2020",
-      expYears: "5 Months",
+      name: "ASquareanb ",
+      role: "Technical Content Writer",
+      years: "Aug 2021 - Apr 2022",
+      expYears: "9 Months",
       description: [
-        "Drove end to end secondary campaigns at a PAN India level. Fetched approx. 20% user traction and generated a revenue of approx. INR 50 Lakh+",
-        "Worked with the revenue team, and found default merchant cases across 6 regions of North India, and thus brought 700+ merchants to new commission rates, leading to incremental monthly revenue of INR 1.7 Lakh+ September onwards for the company"
+       "Produced the highest number of On Pages and Off Pages for public-facing materials, namely -ProAdvisor Solutions, Accounting Helpline, etc." , 
+       "Created structured in-depth content for QuickBooks software.",
+       "Collaborated with team of writers and content marketing strategists to create copy promoting clients'SEO."
       ],
     },
     {
-      name: "Urbanclap",
-      role: "Business Development Intern",
-      years: "Sept 2017 - October 2017",
-      expYears: "1 Month",
+      name: "NatWest Group (Formerly RBS) ",
+      role: "Customer Support and Operations Analyst ",
+      years: "Sept 2019 - Jan 2021",
+      expYears: "17 Months",
       description: [
-       "Undertook a research project to understand the user’s rationale, which led to better understanding of the ‘home-tutors’ market and thus solved the problem of a demand-supply disproportion in a dynamic by implementing some product changes on the platform"
+      "Handled over 50 chats/day signing up new and existing customers, while presenting relevant productinformation." ,
+      "Resolved issues, offering excellent support and tailored recommendations at First Point of Contact.",
+      "<strong> Achievements </strong> : Highest Net Promoter, thrice in a year"
       ],
     }
 
@@ -125,10 +123,10 @@ export const achievements = {
     // ],
   },
   certificates: {
-    title: "Certifications and Other Interests",
+    title: "Certificates",
     items: [
-      "<strong>Full Stack Web Development</strong> course from Masai School ",
-      "Trainer with Teach India- English for Employability (a CSR initiative by Times of India)",
+      "Content Marketing- Udemy",
+      "Team Coordinator, Dramatics Society, Institute of Information Technology and Management",
     ],
   },
 };
@@ -140,7 +138,7 @@ export const education = {
     {
       institution: "Guru Gobind Singh Indraprastha University",
       years: "2016 - 2019",
-      grade: "7.98 CGPA",
+      grade: "86.5%",
       degree: "BBA"
     },
   ],

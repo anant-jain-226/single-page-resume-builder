@@ -30,7 +30,7 @@ const GridContainer = styled.div`
 `;
 
 const Divider = styled.div`
-  height: 100%;
+  height: 100%;ant-progress-bg
   width: 2px;
   background-color: #007bff;
 `;

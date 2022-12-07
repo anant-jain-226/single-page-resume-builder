@@ -5,7 +5,7 @@ import { Progress } from "antd";
 import { withTheme } from "styled-components";
 
 const RatedType = styled.div`
-  width: 15ch;
+  width: 18ch;
   font-weight: 600;
 `;
 
