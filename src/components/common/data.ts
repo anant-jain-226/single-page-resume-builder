@@ -5,14 +5,14 @@ export const intro = {
   email: "ekjot.ask@gmail.com",
   location: "New Delhi, India",
   experience: [
-    { type: "Content Writing Experience", years: "1 year" },
-    { type: "Total Experience", years: "2.5 years" },
+    { type: "Content Writing Experience", years: "1.2 years" },
+    { type: "Total Experience", years: "2.8 years" },
   ],
   social: [
     ["linkedin", "https://www.linkedin.com/in/ekjot-kaur-905826163/"]
   ],
   photo:
-    "https://media-exp1.licdn.com/dms/image/D4D03AQHgMA37FRkxuw/profile-displayphoto-shrink_400_400/0/1669272173755?e=1674691200&v=beta&t=ZtRJtwpjLpnOjtsPX2uVgay2s55WBJtLU_TexgKo8Ow",
+    "https://media.licdn.com/dms/image/D4D03AQHgMA37FRkxuw/profile-displayphoto-shrink_400_400/0/1669272173755?e=1682553600&v=beta&t=84XVsB3rCuhF02FuodDAT0Volp-h3YyeJsnHyeBkADk",
   about: {
     title: "About me",
     description: `I am a content writer with exposure in both creative and technical areas who wants to leverage her skills towards more business centric roles which can help me better understand customer personas and client requirements and thus build proccess to streamline deliveries for the same`,
@@ -67,9 +67,9 @@ export const experience = {
       name: "Doozy Media",
       role: "Senior Content Writer",
       years: "Nov 2022 - present",
-      expYears: "1 month",
+      expYears: "3 months",
       description: [
-        "Single handedly managed and provided writing support (scripts/captions) in influencer campaign for <strong> Pears </strong>", 
+        "Single handedly managed and provided writing support (scripts/captions) in influencer campaign for <strong> Pears, Nivea, Vwash, Dabur Lal, Horlicks </strong>", 
         "Brainstormed with the social media department to determine new ideas and create stories.",
         "Engaged with relevant influencers to build brand awareness.",
         "Drafted advertising content for online promotion of our brands and thus boost sales."
@@ -81,8 +81,8 @@ export const experience = {
       years: "Arp 2022 - July 2022",
       expYears: "4 Months",
       description: [
-        "Researched and curated captivating content for readers of the brand website, and original featurearticles for magazine publish media.", 
-        "Played an instrumental role in creative planning and review sessions, working with resourceful team toelevate quality of content and designs." ,
+        "Researched and curated captivating content for readers of the brand website, and original feature articles for magazine publish media.", 
+        "Played an instrumental role in creative planning and review sessions, working with resourceful team to elevate quality of content and designs." ,
         "Actively created appealing social media posts and captions for the brand's Instagram handle."
       ],
     },
@@ -94,7 +94,7 @@ export const experience = {
       description: [
        "Produced the highest number of On Pages and Off Pages for public-facing materials, namely -ProAdvisor Solutions, Accounting Helpline, etc." , 
        "Created structured in-depth content for QuickBooks software.",
-       "Collaborated with team of writers and content marketing strategists to create copy promoting clients'SEO."
+       "Collaborated with team of writers and content marketing strategists to create copy promoting client's SEO."
       ],
     },
     {
@@ -103,7 +103,7 @@ export const experience = {
       years: "Sept 2019 - Jan 2021",
       expYears: "17 Months",
       description: [
-      "Handled over 50 chats/day signing up new and existing customers, while presenting relevant productinformation." ,
+      "Handled over 50 chats/day signing up new and existing customers, while presenting relevant product information." ,
       "Resolved issues, offering excellent support and tailored recommendations at First Point of Contact.",
       "<strong> Achievements </strong> : Highest Net Promoter, thrice in a year"
       ],
