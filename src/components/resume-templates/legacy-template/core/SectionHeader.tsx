@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export const Section = styled.div`
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: ${(props) => props.theme.primaryColor};
   display: flex;
@@ -20,7 +20,8 @@ export const Section = styled.div`
 export function SectionHeader({ title, Icon }: any) {
   return (
     <Section>
-      {Icon}{title}
+      {Icon}
+      {title}
     </Section>
   );
 }

@@ -5,7 +5,8 @@ import { getIcon } from "../../../common/icons";
 import Color from "color";
 
 const SectionHolder = styled.div`
-  border: 1px solid ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()};
+  border: 1px solid
+    ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()};
   border-radius: 5px;
   padding: 15px 10px 10px 10px;
   position: relative;
@@ -31,7 +32,7 @@ const SectionIntroHolder = styled(SectionHolder)`
   .header {
     top: -20px;
     left: 0;
-    background: ${(props) => props.theme.backgroundColor};;
+    background: ${(props) => props.theme.backgroundColor};
     margin-left: 5px;
     padding: 0 5px;
     background: ${(props) => props.theme.backgroundColor};
@@ -76,7 +77,9 @@ export function SectionIntro(props: any) {
       </FlexHVC>
       <Flex className="social-icons">
         {props.icons?.map((icon: any, index: number) => (
-          <a href={icon[1]} key={index}>{getIcon(icon[0])}</a>
+          <a href={icon[1]} key={index}>
+            {getIcon(icon[0])}
+          </a>
         ))}
       </Flex>
       {props.children}

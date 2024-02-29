@@ -26,7 +26,7 @@ import {
 const GridContainer = styled.div`
   margin: auto;
   display: grid;
-  grid-template-columns: 68% 10px 1fr;;
+  grid-template-columns: 68% 10px 1fr; ;
 `;
 
 const Divider = styled.div`
@@ -40,7 +40,7 @@ const GridColumn = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  &:first-child{
+  &:first-child {
     padding-right: 10px;
   }
 `;
@@ -48,8 +48,8 @@ const GridColumn = styled.div`
 const EmployeName = styled.div`
   margin: 0;
   color: ${(props) => props.theme.primaryColor};
-  font-size: 1.5rem;
-`
+  font-size: 1.3rem;
+`;
 
 export function LegacyTemplate() {
   const intro = useIntro((state: any) => state.intro);
@@ -117,7 +117,10 @@ export function LegacyTemplate() {
         />
         <RatingElement items={technical?.items} />
         <Separator />
-        <SectionHeader Icon={getIcon(exposure?.title)} title={exposure?.title} />
+        <SectionHeader
+          Icon={getIcon(exposure?.title)}
+          title={exposure?.title}
+        />
         <UnratedSection items={exposure?.items} />
 
         <Separator />

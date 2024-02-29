@@ -5,22 +5,20 @@ export const intro = {
   email: "ekjot.ask@gmail.com",
   location: "New Delhi, India",
   experience: [
-    { type: "Content Writing Experience", years: "1.2 years" },
-    { type: "Total Experience", years: "2.8 years" },
+    { type: "Content Writing Experience", years: "2.3 years" },
+    { type: "Total Experience", years: "4 years" },
   ],
-  social: [
-    ["linkedin", "https://www.linkedin.com/in/ekjot-kaur-905826163/"]
-  ],
+  social: [["linkedin", "https://www.linkedin.com/in/ekjot-kaur-905826163/"]],
   photo:
-    "https://media.licdn.com/dms/image/D4D03AQHgMA37FRkxuw/profile-displayphoto-shrink_400_400/0/1669272173755?e=1682553600&v=beta&t=84XVsB3rCuhF02FuodDAT0Volp-h3YyeJsnHyeBkADk",
+    "https://media.licdn.com/dms/image/D4D03AQHgMA37FRkxuw/profile-displayphoto-shrink_400_400/0/1669272174981?e=1711584000&v=beta&t=Jo29d2Fq2mxoYFNi_MRfDmL7KqroSARTnVXAwPKoPm4",
   about: {
     title: "About me",
-    description: `I am a content writer with exposure in both creative and technical areas who wants to leverage her skills towards more business centric roles which can help me better understand customer personas and client requirements and thus build proccess to streamline deliveries for the same`,
+    description: `I am a content writer with exposure in creative, business, and technical areas looking to make the most and beyond of, her skills, ideations, and strengths. Satiating hunger for client briefs, understanding diverse brand languages, and on top of all - satisfaction for one and all: quite literally.`,
   },
   objective: {
     title: "Career Objective",
     description:
-      "Intrigued to solve challenges and radically enhance experience of consumers . I want to focus towards enhancing brevity and thus deliver quality content which also defines clear call to action (CTA) for the clients/consumers.",
+      "I am intrigued to grow out of my comfort zone and never reach the point of saturation when it comes to jotting down minute details of life. I wish to deliver the demand, ring the call to action, and submit to the applause.",
   },
 };
 
@@ -28,18 +26,18 @@ export const skills = {
   technical: {
     title: "Technical Expertise",
     items: [
-      { name: "Agile Projects", rating: 5},
-      { name: "Proofreading ", rating: 4 },
-      { name: "Project-Mgmt", rating: 4 },
-      { name: "Brainstorming", rating: 5 },
+      { name: "Long form writing", rating: 5 },
+      { name: "Proofreading", rating: 4 },
+      { name: "Brainstorming", rating: 4 },
+      { name: "Magazine writing", rating: 5 },
     ],
   },
   exposure: {
-    title: "Skills / Expsoure",
+    title: "Skills / Exposure",
     items: [
-      "Content Marketing",
-      "Logistics-Management",
-      "Blog and Magazine Writing",
+      "Pun writing",
+      "Content marketing",
+      "Social media marketing",
       "Creative Thinking",
     ],
   },
@@ -56,7 +54,7 @@ export const skills = {
   },
   tools: {
     title: "Tools",
-    items: ["Wordpress", "Excel", "Power Point", ],
+    items: ["Wordpress", "Bard AI/ ChatGPT", "Grammarly / Hemmingway"],
   },
 };
 
@@ -64,26 +62,36 @@ export const experience = {
   title: "Experience",
   companies: [
     {
+      name: "Pulp Strategy",
+      role: "Senior Content Writer",
+      years: "Oct 2023 - present",
+      expYears: "4 months",
+      description: [
+        "Responsible for curating organic content for B2B brands like – Pulp Strategy, Shell India, WNS, NLB Services, Coloplast, along with client ORM.",
+        "Ideating and drafting long-form content - newsletters, emailers, website blogs & short-form content - engaging social media posts (CC+AC), standees, product strips, banners.",
+        "Actively strategized for client brainstorming sessions, pitches, final onboarding, and project execution.",
+      ],
+    },
+    {
       name: "Doozy Media",
       role: "Senior Content Writer",
-      years: "Nov 2022 - present",
-      expYears: "3 months",
+      years: "Nov 2022 - Sept 2023",
+      expYears: "11 months",
       description: [
-        "Single handedly managed and provided writing support (scripts/captions) in influencer campaign for <strong> Pears, Nivea, Vwash, Dabur Lal, Horlicks </strong>", 
-        "Brainstormed with the social media department to determine new ideas and create stories.",
-        "Engaged with relevant influencers to build brand awareness.",
-        "Drafted advertising content for online promotion of our brands and thus boost sales."
+        "Social Media Manager for AXE India – executed comprehensive calendar while co-ordinating creative and influencer posting for the same.",
+        "Provided writing support(scripts/captions) for influencer campaign of mega B2C brands - Pears, Nivea, Dabur Lal, VWash, Lux.",
+        "Managed social media campaigns over Instagram and YouTube, while engaging with micro, macro, and mega influencers to build brand awareness.",
       ],
     },
     {
       name: "Wedding Affair",
-      role: "Content Writing Intern ",
-      years: "Arp 2022 - July 2022",
+      role: "Editorial Intern – Project based",
+      years: "Apr 2022 - July 2022",
       expYears: "4 Months",
       description: [
-        "Researched and curated captivating content for readers of the brand website, and original feature articles for magazine publish media.", 
-        "Played an instrumental role in creative planning and review sessions, working with resourceful team to elevate quality of content and designs." ,
-        "Actively created appealing social media posts and captions for the brand's Instagram handle."
+        "Researched and curated captivating content for website readers, and feature articles for publish media magazine.",
+        "Played an instrumental role in creative planning and review sessions, worked with resourceful team to elevate quality of content and designs.",
+        "Actively created appealing social media posts and captions for the brand's Instagram handle.",
       ],
     },
     {
@@ -92,23 +100,22 @@ export const experience = {
       years: "Aug 2021 - Apr 2022",
       expYears: "9 Months",
       description: [
-       "Produced the highest number of On Pages and Off Pages for public-facing materials, namely -ProAdvisor Solutions, Accounting Helpline, etc." , 
-       "Created structured in-depth content for QuickBooks software.",
-       "Collaborated with team of writers and content marketing strategists to create copy promoting client's SEO."
+        "Produced On Pages and Off Pages for public portals - ProAdvisor Solutions, AccountingHelpline, etc.",
+        "Created structured in-depth technical content for QuickBooks software.",
+        "Collaborated with writers and content marketing strategists to create copy to promote client's SEO.",
       ],
     },
     {
       name: "NatWest Group (Formerly RBS) ",
       role: "Customer Support and Operations Analyst ",
       years: "Sept 2019 - Jan 2021",
-      expYears: "17 Months",
+      expYears: "18 Months",
       description: [
-      "Handled over 50 chats/day signing up new and existing customers, while presenting relevant product information." ,
-      "Resolved issues, offering excellent support and tailored recommendations at First Point of Contact.",
-      "<strong> Achievements </strong> : Highest Net Promoter, thrice in a year"
+        "Handled over 50 chats/day signing up new and existing customers, while presenting relevant product information.",
+        "Resolved issues, offering excellent support and tailored recommendations at First Point of Contact.",
+        "Highest Net Promoter, thrice in a year",
       ],
-    }
-
+    },
   ],
 };
 
@@ -138,7 +145,7 @@ export const education = {
     {
       institution: "Guru Gobind Singh Indraprastha University",
       years: "2016 - 2019",
-      grade: "86.5%",
+      grade: "81%",
       degree: "BBA"
     },
   ],

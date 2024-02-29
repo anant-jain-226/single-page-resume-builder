@@ -11,7 +11,7 @@ const SocialDiv = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 
   svg {
     height: 1rem;
@@ -26,9 +26,7 @@ const SocialDiv = styled.div`
 `;
 
 export function SocialBar({ items }: any) {
-
-  if(!items)
-    return null;
+  if (!items) return null;
 
   return (
     <SocialDiv>

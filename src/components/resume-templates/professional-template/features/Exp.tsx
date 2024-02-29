@@ -11,14 +11,14 @@ const FlexTimeline = styled(Timeline)`
   flex-grow: 1;
   justify-content: space-between;
   height: 50%;
-  padding-top: 15px;
+  padding-top: 1px;
   color: ${(props: any) => props.theme.fontColor};
 `;
 
 const TimelineItem = styled(FlexTimeline.Item)`
   padding-bottom: 0;
   flex-grow: 1;
-  padding-bottom: 20px;
+  padding-bottom: 13px;
 
   :last-child {
     flex-grow: 0;
