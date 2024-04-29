@@ -3,17 +3,17 @@ export const intro = {
   role: "Software Development Engineer",
   mobile: "+91 8920885384",
   email: "anantjain226@gmail.com",
-  location: "Bangalore, India",
+  location: "Delhi, India",
   experience: [
-    { type: "Frontend experience", years: "1.8 years" },
-    { type: "Total Experience", years: "2.2 years" },
+    { type: "Frontend experience", years: "3.2 years" },
+    { type: "Total Experience", years: "3.5 years" },
   ],
   social: [
     ["linkedin", "https://www.linkedin.com/in/anant-jain-948349132/"],
     ["github", "https://github.com/Anantjain226"],
   ],
   photo:
-    "https://media-exp1.licdn.com/dms/image/C5103AQEb4O6UpDg7cQ/profile-displayphoto-shrink_400_400/0/1559458575480?e=1671667200&v=beta&t=XntniM91UfH9EiZ70RoW4tuTXo2Et89MuOsOSH4NRnA",
+    "https://media.licdn.com/dms/image/C5103AQEb4O6UpDg7cQ/profile-displayphoto-shrink_400_400/0/1559458579060?e=1715817600&v=beta&t=3jVOI9JmEwYjcW4Jef4DHjnBTpf5fML9Gt16EmA9JWk",
   about: {
     title: "About me",
     description: `I am a self-taught Frontend Developer who changed his field of work radically from business to tech because of his deep-interest in learning different technologies and leverage them to solve as much problems as possible. I am well-versed with UI fundamentals and can adapt to most of the front-end frameworks quickly.`,
@@ -69,16 +69,26 @@ export const experience = {
   title: "Experience",
   companies: [
     {
+      name: "GenWise",
+      role: "Frontend Engineer (Founding Team)",
+      years: "March 2023 - present",
+      expYears: "1.2 years",
+      description: [
+        "Worked on a micro-service architecture, and developed a hybrid mobile app (web + native)",
+        "Created an Al chat bot from scratch where users can talk to a chatgpt powered search model across different personalities and categories in both text and speech formats",
+        "Created a personal assistant product from scratch where a user can call our internal agent, and seek help across specific categories",
+        "Created a dashboard for our internal agents where they can talk to users over an internet call and create a user bio as well",
+        "Mentored development of a full-fledged invite-program where users can invite their loved ones and earn rewards for same",
+      ],
+    },
+    {
       name: "Masai School",
       role: "Software Development Engineer",
-      years: "January 2021 - present",
-      expYears: "1.8 years",
+      years: "January 2021 - February 2023",
+      expYears: "2.2 years",
       description: [
         "Created an internal placements dashboard from scratch, which disabled the dependency on google sheets for tracking processes",
         "Worked on a in-house contest platform where students and come and solve various DSA problems",
-        "Created highly optimised landing pages for many products and achieved pixel perfect designs and eye catching UI",
-        "Used my experience with front end development to <u>define the structure and components</u> for the project, making sure they are reusable",
-        "Interact with designers to suggest changes and to make sure the view he has about the design is translated into actual functionality",
       ],
     },
     {
@@ -87,18 +97,18 @@ export const experience = {
       years: "November 2019 - February 2020",
       expYears: "4 Months",
       description: [
-        "Assist editors in programme development of the Global conferences for The Economist through secondary research", 
-        "Handle end to end speaker (industry veterans) acquisition for the ongoing events and set up discussion panels for the same"
+        "Assist editors in programme development of the Global conferences for The Economist through secondary research",
+        "Handle end to end speaker (industry veterans) acquisition for the ongoing events and set up discussion panels for the same",
       ],
     },
     {
       name: "Zomato",
       role: "Growth Intern",
-      years: "June 2019 - October 2020",
+      years: "June 2019 - October 2019",
       expYears: "5 Months",
       description: [
         "Drove end to end secondary campaigns at a PAN India level. Fetched approx. 20% user traction and generated a revenue of approx. INR 50 Lakh+",
-        "Worked with the revenue team, and found default merchant cases across 6 regions of North India, and thus brought 700+ merchants to new commission rates, leading to incremental monthly revenue of INR 1.7 Lakh+ September onwards for the company"
+        "Worked with the revenue team, and found default merchant cases across 6 regions of North India, and thus brought 700+ merchants to new commission rates, leading to incremental monthly revenue of INR 1.7 Lakh+ September onwards for the company",
       ],
     },
     {
@@ -107,10 +117,9 @@ export const experience = {
       years: "Sept 2017 - October 2017",
       expYears: "1 Month",
       description: [
-       "Undertook a research project to understand the user’s rationale, which led to better understanding of the ‘home-tutors’ market and thus solved the problem of a demand-supply disproportion in a dynamic by implementing some product changes on the platform"
+        "Undertook a research project to understand the user’s rationale in home-tutors market segment",
       ],
-    }
-
+    },
   ],
 };
 
@@ -127,7 +136,6 @@ export const achievements = {
   certificates: {
     title: "Certifications and Other Interests",
     items: [
-      "<strong>Full Stack Web Development</strong> course from Masai School ",
       "Trainer with Teach India- English for Employability (a CSR initiative by Times of India)",
     ],
   },

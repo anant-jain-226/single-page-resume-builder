@@ -21,7 +21,7 @@ import {
 } from "../../stores/data.store";
 
 const LeftSection = styled(FlexCol)`
-  flex-basis: 66%;
+  flex-basis: 70%;
   row-gap: 20px;
   height: 100%;
 `;
@@ -52,7 +52,7 @@ export function ProfessionalTemplate() {
     ],
     shallow
   );
-  
+
   const leftSections = [
     {
       title: experience?.title,
@@ -68,7 +68,7 @@ export function ProfessionalTemplate() {
       component: <ListSection items={certificates?.items} />,
     },
   ];
-  
+
   const rightSections = [
     {
       title: intro.about?.title,
@@ -87,7 +87,10 @@ export function ProfessionalTemplate() {
       title: technical?.title,
       component: <RatedSection items={technical?.items} />,
     },
-    { title: exposure?.title, component: <UnratedSection items={exposure?.items} /> },
+    {
+      title: exposure?.title,
+      component: <UnratedSection items={exposure?.items} />,
+    },
     {
       title: methodology?.title,
       component: <UnratedSection items={methodology?.items} />,
@@ -107,11 +110,15 @@ export function ProfessionalTemplate() {
         </SectionIntro>
 
         {leftSections.map(({ title, component, styles }) => {
-          if(!title)
-            return null;
+          if (!title) return null;
 
           return (
-            <Section icon={getIcon(title)} title={title} styles={styles} key={title}>
+            <Section
+              icon={getIcon(title)}
+              title={title}
+              styles={styles}
+              key={title}
+            >
               {component}
             </Section>
           );
@@ -120,8 +127,7 @@ export function ProfessionalTemplate() {
 
       <RightSection>
         {rightSections.map(({ title, component }) => {
-          if(!title)
-            return null;
+          if (!title) return null;
 
           return (
             <Section icon={getIcon(title)} title={title} key={title}>

@@ -8,7 +8,7 @@ const ResumeContainer = styled(Flex)`
   height: 297mm;
   border: 1px solid ${(props) => props.theme.fontColor};
   margin: auto;
-  padding: 40px 25px;
+  padding: 30px 10px;
   align-items: flex-start;
   column-gap: 10px;
   color: ${(props) => props.theme.fontColor};

@@ -26,9 +26,7 @@ const SocialDiv = styled.div`
 `;
 
 export function SocialBar({ items }: any) {
-
-  if(!items)
-    return null;
+  if (!items) return null;
 
   return (
     <SocialDiv>

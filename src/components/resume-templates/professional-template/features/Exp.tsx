@@ -18,7 +18,7 @@ const FlexTimeline = styled(Timeline)`
 const TimelineItem = styled(FlexTimeline.Item)`
   padding-bottom: 0;
   flex-grow: 1;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 
   :last-child {
     flex-grow: 0;
