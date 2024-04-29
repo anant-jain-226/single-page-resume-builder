@@ -10,7 +10,7 @@ export const intro = {
   ],
   social: [["linkedin", "https://www.linkedin.com/in/ekjot-kaur-905826163/"]],
   photo:
-    "https://media.licdn.com/dms/image/D4D03AQHgMA37FRkxuw/profile-displayphoto-shrink_400_400/0/1669272174981?e=1711584000&v=beta&t=Jo29d2Fq2mxoYFNi_MRfDmL7KqroSARTnVXAwPKoPm4",
+    "https://media.licdn.com/dms/image/D4D03AQHgMA37FRkxuw/profile-displayphoto-shrink_400_400/0/1669272174981?e=1720051200&v=beta&t=dyRrA6YTuc23OMDhHlTbohFIWDRN63NWrjbe9fw8JxY",
   about: {
     title: "About me",
     description: `I am a content writer with exposure in creative, business, and technical areas looking to make the most and beyond of, her skills, ideations, and strengths. Satiating hunger for client briefs, understanding diverse brand languages, and on top of all - satisfaction for one and all: quite literally.`,
@@ -65,9 +65,9 @@ export const experience = {
       name: "Pulp Strategy",
       role: "Senior Content Writer",
       years: "Oct 2023 - present",
-      expYears: "4 months",
+      expYears: "7 months",
       description: [
-        "Responsible for curating organic content for B2B brands like – Pulp Strategy, Shell India, WNS, NLB Services, Coloplast, along with client ORM.",
+        "Responsible for curating organic content for B2B brands like – Pulp Strategy, Shell India, WNS, NLB Services, Microsoft Copilot, along with client ORM.",
         "Ideating and drafting long-form content - newsletters, emailers, website blogs & short-form content - engaging social media posts (CC+AC), standees, product strips, banners.",
         "Actively strategized for client brainstorming sessions, pitches, final onboarding, and project execution.",
       ],
