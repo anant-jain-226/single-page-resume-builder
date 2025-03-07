@@ -1,19 +1,19 @@
 export const intro = {
   name: "Anant Jain",
-  role: "Software Development Engineer",
+  role: "Senior Software Engineer",
   mobile: "+91 8920885384",
-  email: "anantjain226@gmail.com",
+  email: "anantjain20475@gmail.com",
   location: "Delhi, India",
   experience: [
-    { type: "Frontend experience", years: "3.2 years" },
-    { type: "Total Experience", years: "3.5 years" },
+    { type: "Frontend experience", years: "4 years" },
+    { type: "Total Experience", years: "4.4 years" },
   ],
   social: [
     ["linkedin", "https://www.linkedin.com/in/anant-jain-948349132/"],
     ["github", "https://github.com/Anantjain226"],
   ],
   photo:
-    "https://media.licdn.com/dms/image/C5103AQEb4O6UpDg7cQ/profile-displayphoto-shrink_400_400/0/1559458579060?e=1715817600&v=beta&t=3jVOI9JmEwYjcW4Jef4DHjnBTpf5fML9Gt16EmA9JWk",
+    "https://media.licdn.com/dms/image/v2/D5603AQHHQ1rP_sac7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729672593364?e=1735171200&v=beta&t=0i-SAAzV_W8nEuNiAX8PdV3gA5bz99u1loW4R8RE8AM",
   about: {
     title: "About me",
     description: `I am a self-taught Frontend Developer who changed his field of work radically from business to tech because of his deep-interest in learning different technologies and leverage them to solve as much problems as possible. I am well-versed with UI fundamentals and can adapt to most of the front-end frameworks quickly.`,
@@ -30,11 +30,12 @@ export const skills = {
     title: "Technical Expertise",
     items: [
       { name: "JavaScript", rating: 5 },
-      { name: "HTML5", rating: 5 },
-      { name: "CSS", rating: 4 },
       { name: "React", rating: 4 },
-      { name: "Graphql", rating: 3 },
       { name: "Redux", rating: 4 },
+      { name: "CSS", rating: 4 },
+      { name: "HTML5", rating: 5 },
+      { name: "Graphql", rating: 3 },
+  
     ],
   },
   exposure: {
@@ -69,9 +70,18 @@ export const experience = {
   title: "Experience",
   companies: [
     {
+      name: "Publicis Sapient",
+      role: "Senior Experience Engineer",
+      years: "June 2024 - Present",
+      expYears: "0.5 year",
+      description: [
+       "Built a conference schdeuling dashboard for a pharma giant, where top executives from different firms can host and schedule discussions, and be a part of different conferences"
+      ]
+    },
+    {
       name: "GenWise",
       role: "Frontend Engineer (Founding Team)",
-      years: "March 2023 - present",
+      years: "March 2023 - May 2024",
       expYears: "1.2 years",
       description: [
         "Worked on a micro-service architecture, and developed a hybrid mobile app (web + native)",
@@ -133,12 +143,12 @@ export const achievements = {
     //   "Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.",
     // ],
   },
-  certificates: {
-    title: "Certifications and Other Interests",
-    items: [
-      "Trainer with Teach India- English for Employability (a CSR initiative by Times of India)",
-    ],
-  },
+  // certificates: {
+  //   title: "Certifications and Other Interests",
+  //   items: [
+  //     "Trainer with Teach India- English for Employability (a CSR initiative by Times of India)",
+  //   ],
+  // },
 };
 
 export const education = {

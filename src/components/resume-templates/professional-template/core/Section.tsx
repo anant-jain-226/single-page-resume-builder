@@ -7,7 +7,7 @@ import Color from "color";
 const SectionHolder = styled.div`
   border: 1px solid ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()};
   border-radius: 5px;
-  padding: 15px 10px 10px 10px;
+  padding: 15px 10px 5px 10px;
   position: relative;
 
   .header {

@@ -22,7 +22,7 @@ import {
 
 const LeftSection = styled(FlexCol)`
   flex-basis: 70%;
-  row-gap: 20px;
+  row-gap: 10px;
   height: 100%;
 `;
 
