@@ -21,13 +21,13 @@ import {
 } from "../../stores/data.store";
 
 const LeftSection = styled(FlexCol)`
-  flex-basis: 66%;
+  flex-basis: 73%;
   row-gap: 20px;
   height: 100%;
 `;
 
 const RightSection = styled(FlexCol)`
-  flex-basis: 34%;
+  flex-basis: 27%;
   row-gap: 20px;
   height: 100%;
   justify-content: space-between;
@@ -85,7 +85,7 @@ export function ProfessionalTemplate() {
     },
     {
       title: technical?.title,
-      component: <RatedSection items={technical?.items} />,
+      component: <UnratedSection items={technical?.items} />,
     },
     { title: exposure?.title, component: <UnratedSection items={exposure?.items} /> },
     {

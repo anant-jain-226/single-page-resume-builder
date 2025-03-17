@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export const Section = styled.div`
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: ${(props) => props.theme.primaryColor};
   display: flex;

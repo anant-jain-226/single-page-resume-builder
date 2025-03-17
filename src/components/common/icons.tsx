@@ -22,7 +22,7 @@ const icons = new Map([
     ["github", <AiOutlineGithub />],
     ["linkedin", <AiFillLinkedin />],
     ["about me", <MdPermIdentity />],
-    ["technical expertise", <SiExpertsexchange />],
+    ["technical expertise", <GoVerified />],
     ["experience", <MdWork />],
     ["education", <FaUniversity />],
     ["tools", <MdBuild />],

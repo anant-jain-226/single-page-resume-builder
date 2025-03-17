@@ -4,13 +4,14 @@ import styled from "styled-components";
 import { Flex } from "../../../common/styles";
 
 const CompanyName = styled.div`
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
+  margin-bottom: 2px
 `;
 
 const CompanyRole = styled.div`
   font-weight: 500;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: inherit;
 `;
 
